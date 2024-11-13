@@ -1,5 +1,7 @@
 export const Text = () => {
+    let styles = require('./styles.module.scss');
+    
     return (
-        <div>Hello, World!</div>
+        <div className={styles.red}>Hello, World!</div>
     )
 };

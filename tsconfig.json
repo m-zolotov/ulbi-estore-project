@@ -14,7 +14,7 @@
             {
                 "name": "typescript-plugin-css-modules"
             },
-        ]
+        ],
     },
     "ts-node": {
         "compilerOptions": {
