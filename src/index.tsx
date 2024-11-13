@@ -1,9 +1,12 @@
-import { render } from 'react-dom';
-import { Text } from './components/Text';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { App } from './App';
 
-render(
-    <div>
-        <Text />
-    </div>,
-    document.getElementById('root')
+const rootElement = document.getElementById('root') as HTMLDivElement;
+const root = createRoot(rootElement);
+
+root.render(
+    <StrictMode>
+        <App />
+    </StrictMode>
 )
