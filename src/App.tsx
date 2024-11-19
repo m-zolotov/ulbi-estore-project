@@ -1,8 +1,10 @@
 import { Text } from "./components/Text";
+import './index.scss';
 
 export const App = () => {
     return (
-        <div>
+        <div className="app">
+            Welcome!
             <Text />
         </div>
     )
